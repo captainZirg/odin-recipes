@@ -4,25 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
     <title>Greek Gyros</title>
 </head>
 <body>
-    <section>
-        <center>
-            <h1>Greek Gyros</h1>
-            <img src="images/GreekGyros.jpg" alt="">
-            <p><strong>Can't get enough of your favorite Greek restaurant's gyros? Try this quick and easy chicken gyro recipe for something just as delicious, but far better for you!  Yogurt-marinated chicken tenders, packed with flavor from warm spices, and loaded into a pita wrap with homemade tzatziki sauce and all the fixings you love!</strong></p>
-            <br>
-            <h2>How to Make this Chicken Gyro Recipe</h2>
-            <br>
-            <ol>
-                <li>First, make the marinade. Combine the Greek yogurt with garlic, spices, lemon juice and olive oil.  Mix with a spoon or whisk to make sure all is well-combined.</li>
-                <li>Add chicken to the Greek yogurt marinade. Using a pair of tongs, toss chicken and make sure all the pieces are well-coated in the marinade. Cover and refrigerate for 30 minutes. (You can also do this step one night in advance and refrigerate overnight.)</li>
-                <li>When you're ready, heat a little bit of extra virgin olive oil in a non-stick skillet over medium-high heat until the oil is just shimmering (don't let it smoke.) Add chicken (make sure you shake excess marinade off). Cook for 5 minutes on one side until nicely browned, then turn over and cook another 5 minutes or until chicken is fully cooked. (Resist disturbing the chicken as it cooks, you want a great color on these tenders!)</li>
-                <li>Assemble the yummy gyros! Warm your pitas and spread some mean homemade tztaziki sauce. Add a couple pieces of your beautiful Greek chicken and top with the sliced veggies and olives. Enjoy!</li>
-            </ol>
-        </center>
-    </section>
-    
+        <!--Creating the navbar-->
+        <header>
+            <nav>
+                <ul class="nav-list">
+                  <li class="nav-item">
+                    <a href="index.html"><img class="logo" src="images/pirate.png" alt="logo"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="DoubleCheeseburger.html">Double Cheeseburger</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="BbqPizza.html">BBQ pizza</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="GreekGyros.html">Greek Gyros</a>
+                  </li>
+                  
+                </ul>
+              </nav>
+        </header>
+            <!--Used wrapper and container the opposite way, if you are reviewing this code, NEVER DO THIS.-->
+            <div class="container">
+            <div class="wrapper-2 glass">
+                <!--Header and main image-->
+                <div class="centered">
+                <h1 >Greek Gyros</h1>
+                <img class="food" src="images/GreekGyros.jpg" alt="Food-image">
+                </div>
+               
+                <!--Ingredients-->
+                <div class="ingredients-div">
+                    <img class="food-icon" src="images/vegetable.png" alt="vegetable-image">
+                    <h2 class="centered">Ingredients</h2>
+                    <div class="ingredients">
+                        <ul class="ingredients-list">
+                            <li class="ingredients-list-item" > <span>1 kilo pork leg, 5 cutlets, well-pounded </span> </li>
+                            <li class="ingredients-list-item"><span>14 g salt</span>  </li>
+                            <li class="ingredients-list-item"> <span>1 tomato</span> </li>
+                            <li class="ingredients-list-item" > <span>1 onion </span> </li>
+                            <li class="ingredients-list-item" > <span>1/4 bunch parsley </span> </li>
+                            <li class="ingredients-list-item" > <span>6 souvlaki pita breads </span> </li>
+                            <li class="ingredients-list-item" > <span>6 tablespoon(s) Greek tzatziki sauce </span> </li>
+                            <li class="ingredients-list-item" > <span>100 g French fries </span> </li>
+                            <li class="ingredients-list-item" > <span>50 g olive oil </span> </li>
+                            <li class="ingredients-list-item" > <span>1 tablespoon(s) paprika, sweet </span> </li>
+                    </ul>
+                    </div>
+                </div>
+                <!--START OF THE RECIPE-->
+                <div class="ingredients-div">
+                <img class="food-icon" src="images/recipe.png" alt="Recipe-image">
+                <h2 class="centered">Recipe</h2>
+                <div class="ingredients">
+                    <ul class="ingredients-list">
+                        <li class="ingredients-list-item">
+                            Place a grill pan over high heat, until it gets very hot.
+                        </li>
+                        <li class="ingredients-list-item">
+                            Add all the ingredients for the marinade into a bowl and mix well with a spoon.
+                        </li>
+                        <li class="ingredients-list-item">
+                            Add the meat and marinate it well, so that the marinade goes everywhere.
+                        </li>
+                        <li class="ingredients-list-item">Add each pork piece to the grill pan, fry it for 1 minute on each side, remove, wipe the pan with paper towels, and follow the same process for the remaining meat pieces.</li>
+                        <li class="ingredients-list-item">Cut the tomato and the onion into thin slices.</li>
+                        <li class="ingredients-list-item">Finely chop the parsley.</li>
+                        <li class="ingredients-list-item">Take one pita bread and spread with 1 tablespoon tzatziki sauce.</li>
+                        <li class="ingredients-list-item">Add some pork gyro, tomato slices, onion, parsley, and French fries.</li>
+                        <li class="ingredients-list-item">Wrap and serve.</li>
+                        
+                </ul>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
 </body>
 </html>

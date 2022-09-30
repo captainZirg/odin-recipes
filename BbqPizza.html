@@ -4,27 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
     <title>BBQ Pizza</title>
 </head>
 <body>
-    <section>
-        <!--Title with the Image, centered to be changed with CSS-->
-        <center>
-        <h1>
-            BBQ Pizza with Chicken
-        </h1>
-        <img src="images/BBQ.jpg" alt=""> 
-        </center>
-        <p>What’s your favorite kind of pizza? For me, nothing beats my sweet & salty apple gorgonzola pizza. But this BBQ chicken pizza is in close 2nd place! Sweet BBQ sauce, chopped chicken, red onions, a dash of cilantro, and tons of cheese.</p>
-        <br>
-        <!--Recipe-->
-        <h2>How to make:</h2>
-        <ol>
-            <li> <strong>BBQ Sauce:</strong> My husband isn’t a fan of too much BBQ sauce, but I love sauce in each bite. The middle ground is about 1/3 cup of BBQ sauce. Add more if you love extra sauce. </li>
-            <li> <strong>Chicken:</strong> You need 1 cup of chopped cooked chicken. You can buy pre-cooked chicken or pick up a rotisserie chicken. Shred it, then use as the pizza topping. Or you can cook your own chicken for the BBQ chicken pizza. 1 skinless boneless chicken breast is plenty. Whichever you use, toss the cooked chicken in a little BBQ sauce right before layering it on top of the pizza; doing so prevents the cooked chicken from drying out. </li>
-            <li> <strong>Cheese:</strong> For best flavor, let’s use TWO cheeses. Shredded mozzarella for that classic pizza flavor and smoked gouda for deep smoky flavor. Smoked gouda pairs wonderfully with the sweet BBQ sauce and fresh cilantro! If you don’t want to make the extra trip to the store, skip the gouda and just use mozzarella.</li>
-            <li> <strong>Red Onion:</strong> Sharp red onion adds so much flavor to each bite. Not a fan of onion? Leave it off.</li>
-        </ol>
-    </section>
+        <!--Creating the navbar-->
+        <header>
+            <nav>
+                <ul class="nav-list">
+                  <li class="nav-item">
+                    <a href="index.html"><img class="logo" src="images/pirate.png" alt="logo"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="DoubleCheeseburger.html">Double Cheeseburger</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="BbqPizza.html">BBQ pizza</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="GreekGyros.html">Greek Gyros</a>
+                  </li>
+                  
+                </ul>
+              </nav>
+        </header>
+            <!--Used wrapper and container the opposite way, if you are reviewing this code, NEVER DO THIS.-->
+            <div class="container">
+            <div class="wrapper-2 glass">
+                <!--Header and main image-->
+                <div class="centered">
+                <h1 >BBQ Pizza</h1>
+                <img class="food" src="images/BBQ.jpg" alt="Food-image">
+                </div>
+               
+                <!--Ingredients-->
+                <div class="ingredients-div">
+                    <img class="food-icon" src="images/vegetable.png" alt="vegetable-image">
+                    <h2 class="centered">Ingredients</h2>
+                    <div class="ingredients">
+                        <ul class="ingredients-list">
+                            <li class="ingredients-list-item" > <span>2 tablespoons olive oil </span> </li>
+                            <li class="ingredients-list-item"><span>1/4 cup yellow cornmeal</span>  </li>
+                            <li class="ingredients-list-item"> <span>1/2 cup plus 2 tablespoons favorite bbq sauce</span> </li>
+                            <li class="ingredients-list-item"> <span>2 cups leftover shredded rotisserie chicken</span> </li>
+                            <li class="ingredients-list-item"> <span>1 cup shredded smoked cheddar cheese</span> </li>
+                            <li class="ingredients-list-item"> <span>1 cup shredded whole milk mozzarella cheese</span> </li>
+                            <li class="ingredients-list-item"> <span>1/2 cup diced red onion</span> </li>
+                            <li class="ingredients-list-item"> <span>Kosher salt and freshly ground pepper, to taste</span> </li>
+                            <li class="ingredients-list-item"> <span>3 tablespoons chopped fresh cilantro leaves</span> </li>
+                    </ul>
+                    </div>
+                </div>
+                <!--START OF THE RECIPE-->
+                <div class="ingredients-div">
+                <img class="food-icon" src="images/recipe.png" alt="Recipe-image">
+                <h2 class="centered">Recipe</h2>
+                <div class="ingredients">
+                    <ul class="ingredients-list">
+                        <li class="ingredients-list-item">
+                            Preheat oven to 450 degrees F. Lightly coat a baking sheet or pizza pan with olive oil.
+                        </li>
+                        <li class="ingredients-list-item">
+                            Working on a surface that has been sprinkled with cornmeal, roll out the pizza into a 12-inch-diameter round. Transfer to prepared baking sheet or pizza pan.
+                        </li>
+                        <li class="ingredients-list-item">
+                            Using a small ladle, spread bbq sauce over the surface of the dough in an even layer, leaving a 1/2-inch border.
+                        </li>
+                        <li class="ingredients-list-item">Top with chicken, cheeses and onion; season with salt and pepper, to taste.</li>
+                        <li class="ingredients-list-item">Place into oven and bake for 20-24 minutes, or until the crust is golden brown and the cheeses have melted.</li>
+                        <li class="ingredients-list-item">Serve immediately, garnished with cilantro, if desired.</li>
+                </ul>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
 </body>
 </html>

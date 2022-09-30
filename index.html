@@ -4,30 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
     <title>Tasty Recipes by captainZirg</title>
 </head>
 <body>
-    <!--Wrapping the content with the  <center> tag to make the website a bit prettier-->
-    <center>
-    <section>
-        
-        <h1>RECIPES</h1>
-        <img src="https://media.giphy.com/media/hXYlYBixtHEFq/giphy.gif" alt="">
-        <br>
-        <br>
-        <p>These are just some of the few dishes that captainZirg <strong>adores</strong> .</p>
-        <br>
-        <!--A list containing all the items with their appropriate links to the other html files-->
-        <ul>
-            <li> <a href="DoubleCheeseburger.html">DoubleCheeseburger</a></li>
-            <br>
-            <li> <a href="GreekGyros.html">Greek Gyros</a></li>
-            <br>
-            <li> <a href="BbqPizza.html">BBQ Pizza</a></li>
-            <br>
-        </ul>
-        
-    </section>
-    </center>
+    <!--Creating the navbar-->
+    <header>
+        <nav>
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="index.html"><img class="logo" src="images/pirate.png" alt="logo"></a>   
+              </li>
+              <li class="nav-item">
+                <a href="DoubleCheeseburger.html">Double Cheeseburger</a>
+              </li>
+              <li class="nav-item">
+                <a href="BbqPizza.html">BBQ pizza</a>
+              </li>
+              <li class="nav-item">
+                <a href="GreekGyros.html">Greek Gyros</a>
+              </li>
+              
+            </ul>
+          </nav>
+    </header>
+    <div class="container">
+        <div class="wrapper glass">
+            <h1 class="centered">RECIPES</h1>
+            <h3 class="centered">If you want to eat like a pirate, you'll have to cook like one.</h3>
+        <!--I created a card div for each food-->
+            <div class="cards">
+                <img class="food-icon" src="images/hamburger.png" alt="">
+                <h4 class="centered">Double Cheeseburger</h4>
+                <p class="centered">For a full recipe, click <strong><a href="DoubleCheeseburger.html">here</a></strong> .</p>
+                </div>
+            <div class="cards"><img class="food-icon" src="images/pizza.png" alt="">
+                <h4 class="centered">BBQ Pizza</h4>
+                <p class="centered">For a full recipe, click <strong><a href="#">here</a></strong> .</p>
+            </div>
+            <div class="cards"><img class="food-icon" src="images/kebab.png" alt="">
+                <h4 class="centered">Greek Gyros</h4>
+                <p class="centered">For a full recipe, click <strong><a href="#">here</a></strong> .</p>
+            </div> 
+            
+        </div>
+    </div>
 </body>
 </html>
